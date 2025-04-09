@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helpline - Boost Your Business</title>
+    <link rel="stylesheet" href="helpline.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "W59oFvi1bWxOypP9d",
+      });
+   })();
+</script>
+   <script src="email.js"></script>
+</head>
+
+<body>
+    <div class="helpline-container">
+        <h1>Helpline & Support</h1>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> boostyourbiz11@gmail.com</p>
+            <p><strong>Phone:</strong> +91-98765-43210</p>
+            <p><strong>Working Hours:</strong> 9 AM - 6 PM, Monday to Friday</p>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+                <li><strong>How do I get started?</strong> – Click on "Get Started" and fill in your business details.</li>
+                <li><strong>Can I customize my promotional content?</strong> – Yes, edit and regenerate until you're happy!</li>
+                <li><strong>Is this service free?</strong> – Basic features are free. Premium features may require a subscription.</li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>Still Need Help?</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required />
+
+                <label for="subject">Subject</label>
+                <input type="subject" id="subject" placeholder="Subject" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Describe your issue or query..." required></textarea>
+
+                <button type="submit" onclick="sendmail()">Send Message</button>
+            </form>
+        </section>
+
+        <a class="back-link" href="index.html">← Back to Home</a>
+    </div>
+</body>
+
+</html>

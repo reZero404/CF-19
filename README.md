@@ -7,3 +7,4 @@ and social media posts tailored to their vibe
 and local trends.</P>
 
 <p> Added signup page</p>
+<p> mdified pages and backgroung</p>

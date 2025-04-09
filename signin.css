@@ -168,4 +168,19 @@
     background: #f0f0f0;
   }
 
- 
+  .form-btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #21c8af;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .form-btn:hover {
+    background-color: #1ba78e;
+  }
+  

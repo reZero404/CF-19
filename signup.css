@@ -62,12 +62,12 @@
   
   .login-section p,
   .signup-section p {
-    color: #666;
+    color: #000000;
     margin-bottom: 20px;
   }
   
   .signup-section {
-    background: linear-gradient(135deg, #21c8af, #5ec6ca);
+    background: linear-gradient(135deg, #6600ff, #0055ff);
     color: white;
     text-align: center;
   }
@@ -128,6 +128,9 @@
     border: 1px solid #ccc;
     font-size: 14px;
   }
+  input:hover{
+    box-shadow: 0 0 10px #00f0ff, 0 0 10px #00f0ff, 0 0 15px #00f0ff;
+  }
   
   form button {
     padding: 12px;
@@ -138,10 +141,15 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    transition: all;
   }
   
   form button:hover {
-    background-color: #1ba78e;
+    color: #000000;
+    background-color: #ffffff;
+    transition-duration: 1s;
+    transform: scale(.9);
+    box-shadow: 0 0 15px #00f0ff, 0 0 30px #00f0ff, 0 0 45px #00f0ff;
   }
 
   .signup-btn {

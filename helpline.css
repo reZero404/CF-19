@@ -1,0 +1,119 @@
+* Reset & base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .helpline-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            border-left: 4px solid #1a73e8;
+            padding-left: 10px;
+        }
+
+        .contact-info,
+        .faq,
+        .contact-form {
+            margin-top: 40px;
+        }
+
+        .faq ul {
+            margin-left: 20px;
+        }
+
+        .faq li {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #fdfdfd;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #155cb0;
+        }
+
+        .back-link {
+            margin-top: 30px;
+            display: block;
+            text-align: center;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #155cb0;
+        }
+
+        @media (max-width: 600px) {
+            .helpline-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }

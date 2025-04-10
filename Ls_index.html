@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boost Your Business</title>
+  <link rel="stylesheet" href="Ls_style.css" />
+</head>
+<body>
+  <nav class="full-navbar">
+    <div class="nav-container">
+      <div class="logo">BoostYourBiz</div>
+    </div>
+    <div class="button">
+      <a href="helpline.html">
+        <button class="nav-btn">Helpline</button>
+      </a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1 class="p1">Boost Your Local</h1>
+      <h2 class="p2">Business Instantly</h2>
+      <p class="tagline">Generate eye-catching promotional materials with ease.</p>
+    </header>
+
+    <section id="parent">
+      <div id="details">
+        <form id="bizForm">
+          <div class="form-group">
+            <label for="businessName">Business Name</label>
+            <input type="text" id="businessName" placeholder="Enter your business name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="businessType">Business Type</label>
+            <input type="text" id="businessType" placeholder="Enter your business type" required />
+          </div>
+
+          <div class="form-group">
+            <label for="businessDescription">Business Description</label>
+            <textarea id="businessDescription" rows="4" placeholder="Describe your business..." required></textarea>
+          </div>
+
+          <button type="submit">Generate</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="card1">
+      <div class="card" id="flyerCard">
+        <h3>Flyer Preview</h3>
+        <p class="card-title" id="flyerTitle">Your Business</p>
+        <p id="flyerContent">...</p>
+      </div>
+
+      <div class="card" id="socialCard">
+        <h3>Social Media Post</h3>
+        <p><strong id="socialHandle">@yourbusiness</strong></p>
+        <p id="socialTagline">Your tagline goes here</p>
+        <div class="text-line" id="socialContent">...</div>
+      </div>
+
+      <div class="card" id="pitchCard">
+        <h3>Business Pitch</h3>
+        <p><strong id="pitchTitle">Your Business:</strong></p>
+        <p id="pitchTagline">Your tagline goes here.</p>
+        <p id="pitchContent">...</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; ByteStrom_4 co.</p>
+    </footer>
+  </div>
+
+  <script src="Ls_script.js"></script>
+</body>
+</html>

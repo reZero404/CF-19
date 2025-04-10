@@ -6,13 +6,18 @@
   }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('office-bg.jpg') no-repeat center center fixed;
+    background-image: url("back3.jpg");
     background-size: cover;
-    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
-  }
-  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
   /* Navbar */
   nav.full-navbar {
     background-color: transparent;
